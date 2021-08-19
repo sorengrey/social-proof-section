@@ -16,11 +16,7 @@ main {
     text-align: center;
 }
 
-h1 {
-    color: hsl(300, 43%, 22%);
-}
-
-h2 {
+h1, h2 {
     color: hsl(300, 43%, 22%);
 }
 
@@ -38,6 +34,11 @@ h4 {
 p {
     color: hsl(303, 10%, 53%);
     font-weight: 500;
+}
+
+.rating {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
 }
 
 .card {
