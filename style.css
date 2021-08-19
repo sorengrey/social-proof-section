@@ -1,8 +1,47 @@
-.attribution {
-    display: none;
+html, body {
+    height: 100%;
 }
 
 body {
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
+    background-image: url('');
+    display: flex;
 }
+
+main {
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+}
+
+h2 {
+    color: hsl(300, 43%, 22%);
+}
+
+h3 {
+}
+
+h4  {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    padding: 0;
+}
+
+p {
+    color: hsl(303, 10%, 53%);
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    color: #FFFFFF;
+}
+
+.attribution {
+    display: none;
+}
+
