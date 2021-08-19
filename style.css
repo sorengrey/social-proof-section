@@ -5,13 +5,14 @@ html, body {
 body {
     font-family: 'Spartan', sans-serif;
     font-size: 15px;
-    background-image: url('');
+    background-image: url('./images/bg-pattern-top-mobile.svg'),url('./images/bg-pattern-bottom-mobile.svg');
+    background-repeat: no-repeat;
     display: flex;
 }
 
 main {
     margin: auto;
-    width: 70%;
+    width: 80%;
     text-align: center;
 }
 
@@ -23,22 +24,37 @@ h2 {
     color: hsl(300, 43%, 22%);
 }
 
-h3 {
+h3, h4 {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
 }
 
-h4  {
+h4 {
     color: hsl(333, 80%, 67%);
     font-weight: 400;
-    padding: 0;
 }
 
 p {
     color: hsl(303, 10%, 53%);
+    font-weight: 500;
 }
 
 .card {
     background-color: hsl(300, 43%, 22%);
     color: #FFFFFF;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.card p {
+    color: #FFFFFF;
+    opacity: .7;
+}
+
+.avatar {
+    border-radius: 50%;
 }
 
 .attribution {
