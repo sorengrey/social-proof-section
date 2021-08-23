@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    margin: 0;
 }
 
 body {
@@ -12,50 +13,105 @@ body {
 
 main {
     margin: auto;
-    width: 80%;
+    width: 374px;
     text-align: center;
+}
+
+h1, p, .rating, .card {
+    width: 327px;
+    margin: auto;
 }
 
 h1, h2 {
     color: hsl(300, 43%, 22%);
 }
 
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.14px;
+    height: 102px;
+    left: 24px;
+}
+
+h2 {
+    font-size: 13px;
+    line-height: 14.56px;
+}
+
 h3, h4 {
     display: inline-flex;
     padding: 0;
-    margin: 0;
+    margin: 0 3em 0 0;
+    line-height: 14.56px;
 }
 
 h4 {
     color: hsl(333, 80%, 67%);
     font-weight: 400;
+    display: block;
+    margin-top: .3em;
 }
 
 p {
     color: hsl(303, 10%, 53%);
     font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    height: 100px;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .rating {
     background-color: hsl(300, 24%, 96%);
     border-radius: 10px;
+    margin: auto;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: .7em;
+    font-size: 13px;
+}
+
+#cardholder {
+    margin-top: 3em;
 }
 
 .card {
     background-color: hsl(300, 43%, 22%);
     color: #FFFFFF;
     border-radius: 10px;
-    padding: 1em;
-    margin-bottom: 1em;
+    padding: 1em 1em 3em 1em;
+    margin: auto auto 1em auto;
+    text-align: left;
+    padding: 2em .5em 2em .5em;
 }
 
-.card p {
+h5 {
     color: #FFFFFF;
-    opacity: .7;
+    opacity: .8;
+    width: 263px;
+    line-height: 22px;
+    letter-spacing: -0.23px;
+    margin: 1em auto auto auto;
+    font-size: 13px;
+    padding: 0;
+    font-weight: 500;
+    width: 263px;
 }
 
 .avatar {
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 2em;
+}
+
+.namebuyer {
+    display: inline-block;
+    margin-left: 2em;
 }
 
 .attribution {
