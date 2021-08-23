@@ -90,7 +90,7 @@ p {
 
 h5 {
     color: #FFFFFF;
-    opacity: .8;
+    opacity: .9;
     width: 263px;
     line-height: 22px;
     letter-spacing: -0.23px;
@@ -98,7 +98,7 @@ h5 {
     font-size: 13px;
     padding: 0;
     font-weight: 500;
-    width: 263px;
+    width: 265px;
 }
 
 .avatar {
@@ -118,3 +118,8 @@ h5 {
     display: none;
 }
 
+
+/* desktop */
+@media only screen and (min-width: 376px){
+    
+}
