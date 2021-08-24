@@ -104,7 +104,18 @@ p {
 /* desktop */
 @media only screen and (min-width: 376px){
     body {
-    background-image: url('./images/bg-pattern-top-mobile.svg'),url('./images/bg-pattern-bottom-mobile.svg');
+    background-image:
+        url('./images/bg-pattern-top-mobile.svg'),
+        url('./images/bg-pattern-bottom-mobile.svg');
+    background-position:
+        top -20px left -85px,
+        bottom -650px right 200px;
+    background-repeat:
+        no-repeat,
+        no-repeat;
+    background-size:
+        50%,
+        50% ;
     }
     main {
         margin: 3em;
