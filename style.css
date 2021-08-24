@@ -121,5 +121,98 @@ h5 {
 
 /* desktop */
 @media only screen and (min-width: 376px){
-    
+    body {
+    background-image: url('./images/bg-pattern-top-mobile.svg'),url('./images/bg-pattern-bottom-mobile.svg');
+    }
+    main {
+        margin: 3em;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -1.71px;
+        position: absolute;
+        width: 445px;
+        height: 154px;
+        left: 165px;
+        top: 127px;
+        text-align: left;
+        margin: 0;
+    }
+    p {
+        font-size: 15px;
+        position: absolute;
+        width: 445px;
+        height: 75px;
+        left: 165px;
+        top: 287px;
+        line-height: 25px;
+        letter-spacing: -0.5px;
+        text-align: left;
+        margin: 0;
+    }
+    #ratingholder {
+        position: absolute;
+        /* width: 540px; */
+        height: 200px;
+        left: 735px;
+        top: 145px;
+        margin: 0;
+    }
+    .rating {
+        line-height: 14.56px;
+        display: flex;
+        margin: 0;
+    }
+    .rating img {
+        height: 15.77px;
+        width: 16.55px;
+    }
+    #cardholder {
+        margin: 0;
+        padding: 0;
+    }
+    .card {
+        margin: 0;
+    }
+    h5 {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: -.23px;
+    }
+    #rating1, #rating2, #rating3 {
+        position: absolute;
+        width: 445px;
+        height: 56px;
+        margin: 0;
+    }
+    #rating1 {
+        left: 735px;
+        top: 145px;
+    }
+    #rating2 {
+        left: 783px;
+        top: 217px;        
+    }
+    #rating3 {
+        left: 830px;
+        top: 289px;        
+    }
+    #colton, #irene, #anne {
+        position: absolute;
+        width: 350px;
+    }
+    #colton {
+        left: 165px;
+        top: 434px;
+    }
+    #irene {
+        left: 545px;
+        top: 450px;
+    }
+    #anne {
+        left: 925px;
+        top: 466px;
+    }
 }
