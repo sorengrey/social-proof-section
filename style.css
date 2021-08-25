@@ -131,15 +131,21 @@ p {
         top: 127px;
         text-align: left;
     }
+    h2 {
+        padding: 0 1em 0 1.5em;
+        font-size: 15px;
+    }
+    h3, h4 {
+        font-size: 13px;
+    }
     h5 {
         font-size: 13px;
         font-weight: 500;
         line-height: 22px;
         letter-spacing: -.23px;
-    }
-    h2 {
-        /* margin: auto; */
-        padding: 0 1em 0 1.5em;
+        margin: 1em 0 1em .5em;
+        padding: 1em 0 0 1em;
+        width: 280px;
     }
     p {
         font-size: 15px;
@@ -153,21 +159,32 @@ p {
         text-align: left;
         margin: 0;
     }
+    .card {
+        width: 350px;
+        height: 180px;
+        padding-right: 0;
+        margin: 0;
+    }
     .rating {
         display: flex;
         position: absolute;
-        width: 445px;
+        width: 450px;
         align-items: center;
         justify-content: center;
+        padding: .7em 0 .7em 0;
     }
     .rating img {
-        padding-left: 4px;
+        padding-left: 7px;
         margin: 1em 0 1em 0;
         height: 16.55px;
         width: 15.77px;
     }
     .avatar {
         margin-left: 2.5em;
+        margin-top: .9em;
+    }
+    .namebuyer {
+        margin-top: 1em;
     }
     #rating1 {
         left: 735px;
