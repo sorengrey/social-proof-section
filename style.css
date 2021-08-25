@@ -7,6 +7,9 @@ body {
     font-size: 15px;
     background-image: url('./images/bg-pattern-top-mobile.svg'),url('./images/bg-pattern-bottom-mobile.svg');
     background-repeat: no-repeat;
+    background-position:
+    top left,
+    bottom right;
     display: flex;
 }
 main {
@@ -102,7 +105,7 @@ p {
 
 
 /* desktop */
-@media only screen and (min-width: 376px){
+@media only screen and (min-width: 450px){
     body {
     background-image:
         url('./images/bg-pattern-top-desktop.svg'),
@@ -135,7 +138,8 @@ p {
         letter-spacing: -.23px;
     }
     h2 {
-        margin: 1em auto 1em auto;
+        /* margin: auto; */
+        padding: 0 1em 0 1.5em;
     }
     p {
         font-size: 15px;
@@ -150,14 +154,17 @@ p {
         margin: 0;
     }
     .rating {
-        line-height: 14.56px;
         display: flex;
-        padding: 1em;
-        width: 445px;
         position: absolute;
+        width: 445px;
+        align-items: center;
+        justify-content: center;
     }
     .rating img {
-        margin: auto;
+        padding-left: 4px;
+        margin: 1em 0 1em 0;
+        height: 16.55px;
+        width: 15.77px;
     }
     .avatar {
         margin-left: 2.5em;
@@ -176,7 +183,7 @@ p {
     }
     #colton, #irene, #anne {
         position: absolute;
-        width: 350px;
+        width: 340px;
     }
     #colton {
         left: 165px;
